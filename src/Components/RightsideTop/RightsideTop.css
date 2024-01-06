@@ -1,0 +1,13 @@
+
+#more{
+    color: gray;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+#News:hover{
+    background-color: #dadada;
+}

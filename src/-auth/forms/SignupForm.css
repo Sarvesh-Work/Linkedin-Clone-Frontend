@@ -1,0 +1,24 @@
+body{
+    background-color:#f3f2f0;
+}
+#form-main{
+    background-color:white; 
+    height: 420px;
+    width: 500px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding:50px;
+}
+/* img{
+    height: 100px;
+    width: 100px;
+} */
+.form-label{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
