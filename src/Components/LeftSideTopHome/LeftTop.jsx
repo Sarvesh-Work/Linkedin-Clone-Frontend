@@ -5,7 +5,7 @@ const Left = () => {
   return (
     <>
     <div className="container sections p-0 ">
-      <div
+      <Link to="/EditProfile"
         className=" row mx-0 py-4 d-flex justify-content-center"
         style={{
           borderTopRightRadius: "9px",
@@ -29,7 +29,7 @@ const Left = () => {
             className="h-100 w-100  rounded-circle"
           />
         </div>
-      </div>
+      </Link>
 
       <div className="row mt-5 mx-0 p-2">
         <div className="col-12 fs-5 fw-bold text-center mt-3">

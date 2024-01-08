@@ -2,7 +2,7 @@
 import "./Network.css"
 const Network = () => {
   return (
-    <div>
+      <>
       <div className="container-md-fluid p-2" >
         <div className="row px-5"> 
           <div className="col-lg-3" >
@@ -470,7 +470,7 @@ const Network = () => {
         </div>
 
       </div>
-    </div>
+      </>
   )
 }
 

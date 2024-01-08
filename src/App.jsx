@@ -7,6 +7,7 @@ import RootLayout from "./-root/RootLayout";
 import Home from "./-root/pages/Home/Home";
 import './global.css'
 import Network from "./-root/pages/Network/Network";
+import EditProfile from "./-root/pages/EditProfile/EditProfile";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Route   element={<RootLayout/>}>
           <Route path="/Home" element={<Home/>}/>
           <Route path="/Network" element={<Network/>}/>
+          <Route path="/EditProfile"  element={<EditProfile/>}/>
         </Route>
       </Routes>
     </main>

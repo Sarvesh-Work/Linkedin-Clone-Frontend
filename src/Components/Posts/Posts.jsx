@@ -1,4 +1,5 @@
 import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
+import Event from "../Event/Event";
 import Media from "../Media/Media";
 
 const Posts = () => {
@@ -32,7 +33,7 @@ const Posts = () => {
       <div className="row p-2  d-flex justify-content-around ">
         <div
           type="button"
-          className="col-3  p-2 d-flex button rounded-3  justify-content-center align-items-center"
+          className="col-md-3 col-5 p-2 d-flex button rounded-3  justify-content-center align-items-center"
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
           style={{ cursor: "pointer" }}
@@ -58,10 +59,15 @@ const Posts = () => {
           tabIndex="-1"
           aria-labelledby="staticBackdropLabel"
           aria-hidden="true"
+         
         >
-          <Media/>
+          <Media />
         </div>
-        <div className="col-3  p-2 d-flex button rounded-3  justify-content-center align-items-center">
+        <div className="col-md-3 col-5 p-2 d-flex button rounded-3  justify-content-center align-items-center"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop1"
+        style={{ cursor: "pointer" }}>
+
           <div className="d-flex align-items-center p-1">
             <i
               className="fa-regular fa-calendar-days fs-4"
@@ -74,6 +80,19 @@ const Posts = () => {
           >
             Event
           </div>
+        
+        </div>
+        <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+         
+        >
+          <Event/>
         </div>
         <div className="col-md-3 col-5 p-2 d-flex button rounded-3  justify-content-center align-items-center">
           <div className="d-flex align-items-center p-1">

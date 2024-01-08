@@ -8,14 +8,14 @@ const Media = () => {
   }, 3000);
   return (
     <>
-      <div className="modal-dialog modal-lg modal-dialog-centered  ">
-        <div className="modal-content p-2" >
+      <div className="modal-dialog modal-lg modal-dialog-centered  "  >
+        <div className="modal-content p-2" style={{borderRadius:"20px"}} >
           {Loader ? (
             <div className="spinner-border mx-auto" role="status" >
             </div>
           ) : (
             <>
-              <div className="modal-header ">
+              <div className="modal-header " >
                 <div
                   className="button d-flex p-2 cursor"
                   style={{ borderRadius: "20px" }}
@@ -32,7 +32,7 @@ const Media = () => {
                       className="fs-5 fw-bold mx-1 text-dark"
                       id="staticBackdropLabel"
                     >
-                      Sarveh Munde
+                      Sarveh  Munde
                     </div>
                     <div className="fs-6 mx-1">Post Any thing</div>
                   </div>
@@ -58,7 +58,7 @@ const Media = () => {
                     placeholder="Leave a comment here"
                     id="floatingTextarea2"
                     style={{
-                      height: " 100px",
+                      height: " 180px",
                       border: "none",
                       outline: "none",
                       boxShadow: "none",
@@ -75,6 +75,9 @@ const Media = () => {
               className="fa-regular fa-calendar-days fs-4 cursor"
         
             ></i>
+                   </div>
+                   <div>
+                   <i className="fa-solid fa-ellipsis fs-4 cursor"></i>
                    </div>
                 </div>
               </div>
@@ -98,4 +101,4 @@ const Media = () => {
   );
 };
 
-export default Media;
+export default Media ;
