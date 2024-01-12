@@ -6,6 +6,7 @@ const LeftBottom = () => {
     <div className="container sections p-0 mt-2" >
      
       <Link
+        to="/Groups"
         className="row  mx-0 p-2 mt-1 d-flex justify-content-center"
         style={{
           boxShadow:
@@ -20,6 +21,7 @@ const LeftBottom = () => {
         </div>
       </Link>
       <Link
+        to="/EventPage"
         className="row  mx-0 p-2 d-flex justify-content-center"
         style={{
           boxShadow:
@@ -32,6 +34,7 @@ const LeftBottom = () => {
         </div>
       </Link>
       <Link
+         to="/Follow"
         className="row  mx-0 p-2  d-flex justify-content-center"
         style={{
           boxShadow:

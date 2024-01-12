@@ -1,0 +1,20 @@
+.sarvesh-name{
+    font-size: 20px;
+    color: #191919;
+}
+.button{
+    background-color:white;
+    color: #191919;
+    font-size: 18px;
+    text-decoration: none;
+    &:hover{
+        border-bottom: 1px solid black;
+        border-radius: 0px 0px ;
+    }
+}
+#following-name{
+    font-size:18px;
+}
+#following-bio{
+    font-weight: 400;
+}

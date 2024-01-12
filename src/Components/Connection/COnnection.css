@@ -1,0 +1,43 @@
+body{
+    background-color:#f3f2f0;
+
+}
+a{
+    text-decoration: none;
+}
+.fw-bold{
+    font-weight: 800;
+    font-size:18px;
+    color: #616161;
+    &:hover{
+        background-color: #F3F3F3;
+    }
+}
+#card1{
+    border-radius: 20px 20px;
+}
+.icon12{
+    font-size: 25px;
+}
+#text1{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+#btn-122{
+    color: blue;
+    font-size:18px;
+    background-color: white;
+    border-radius: 20px 20px;
+  
+    border: 2px solid;
+    &:hover{
+        background-color:#f3f2f0;
+    }
+}
+.cross{
+    font-size: 30px;
+    color: #4F5556;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color:#f3f2f0;
+}
+.fw-bold{
+    font-weight: 800;
+    font-size:18px;
+    color: #616161;
+    &:hover{
+        background-color: #F3F3F3;
+    }
+}
+.icon12{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+#React-job-head{
+    color: rgb(75 71 71 / 90%);
+    font-size: 1.5rem;
+}
+#React-job-name{
+   color: rgb(75 71 71 / 90%);
+   font-size: 1rem;
+}
+#job-location{
+   color: rgb(75 71 71 / 90%);
+}
+#show-all{
+    color: rgb(75 71 71 / 90%);
+    font-size: 18px;
+    font-weight: 600;
+}
+#btn-122{
+    color: blue;
+    font-size:18px;
+    background-color:#f3f2f0;
+    border-radius: 20px 20px;
+  
+    border: 2px solid;
+    &:hover{
+        background-color:#f3f2f0;
+    }
+}
+#Explore-card:hover{
+    box-shadow: 0px 0px 2px black;
+}

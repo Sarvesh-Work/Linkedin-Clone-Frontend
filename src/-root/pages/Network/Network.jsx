@@ -1,19 +1,26 @@
 
+import { useState } from "react"
 import "./Network.css"
+import { Link } from "react-router-dom";
+
 const Network = () => {
+  const [Loading , setLoading]=useState(true)
+  setInterval(() => {
+    setLoading(false)
+  }, 2000);
   return (
       <>
-      <div className="container-md-fluid p-2" >
-        <div className="row px-5"> 
+      <div className="container-md-fluid p-2" style={{overflowX:"hidden"}} >
+        <div className="row px-md-5"> 
           <div className="col-lg-3" >
-            <div className="card">
+            <div className="sections">
               <ul className="list-group list-group-light" >
                 <li className="list-group-item px-3">
                   <h4>Manage My Network</h4>
                   <div className="mt-3">
-                    <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
+                    <Link to="/Connections"  href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="bi bi-person-vcard-fill me-2  icon12"></i><p className="mt-1">Connection</p>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
@@ -79,14 +86,28 @@ const Network = () => {
           </div>
 
           <div className="col-lg-9 pt-lg-0 pt-5 ">
-            <div className="card invitations">
+            <div className="sections invitations p-1 ">
               <div className="d-flex justify-content-between mx-3 mt-3 align-items-center">
                 <p id="text1">No pending invitations</p>
                 <p id="text1">Manage</p>
               </div>
             </div>
 
-            <div className="card card-follower p-3 mt-2">
+         
+
+
+            {Loading ?(
+              <div className="container  ">
+                 <div className="row ">
+                 <div class="spinner-border mt-4 mx-auto col-12" role="status" >
+               </div>
+                 </div>
+                  
+              </div>
+
+            ):(
+             <>
+                    <div className="sections card-follower p-3 mt-2">
               <div className="d-flex justify-content-between">
                 <p id="text1">People in the IT Services and IT Consulting industry you may know</p>
                 <p className="button px-2 rounded-2">
@@ -95,8 +116,8 @@ const Network = () => {
               </div>
 
 
-
-<div className="row row-cols-1 row-cols-md-3 g-4">
+         
+                    <div className="row row-cols-1 row-cols-md-3 g-4">
  
  {/* ........Network card....... */}
 
@@ -464,12 +485,21 @@ const Network = () => {
    </div>
 </div>
 
+           
+
+                    </div>
+             </>  
+            
+            )
+
+            }
+
 
             </div>
           </div>
         </div>
 
-      </div>
+
       </>
   )
 }

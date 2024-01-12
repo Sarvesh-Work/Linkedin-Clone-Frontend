@@ -1,4 +1,4 @@
-import "./RightsideBottom.css"
+
 import img from "../../images/attractive-man-smiling_388558-125.avif"
 import img1 from "../../images/1631328654457.jpeg"
 import { Link } from "react-router-dom"
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const RightsideBottom = () => {
   return (
     <>
-     <div id="Bottom" className="container sticky-top  mt-2 w-100  p-3" style={{zIndex:"1",top:"70px"}}>
+     <div id="Bottom" className="container sticky-top  mt-2 w-100  p-3 sections" style={{zIndex:"1",top:"70px"}}>
         <div className="row p-1  ">
             <div className=" col-1 fs-6  ms-auto text-center">
                 Ad

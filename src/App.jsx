@@ -8,6 +8,13 @@ import Home from "./-root/pages/Home/Home";
 import './global.css'
 import Network from "./-root/pages/Network/Network";
 import EditProfile from "./-root/pages/EditProfile/EditProfile";
+import EventPage from "./Components/EventPage/EventPage";
+import Groups from "./Components/Groups/Groups";
+import Jobs from "./-root/pages/jobs/Jobs1";
+import Connection from "./Components/Connection/Connection";
+import Follow from "./Components/Follow&Followings/Follow";
+
+
 
 
 const App = () => {
@@ -28,7 +35,15 @@ const App = () => {
           <Route path="/Home" element={<Home/>}/>
           <Route path="/Network" element={<Network/>}/>
           <Route path="/EditProfile"  element={<EditProfile/>}/>
+          <Route path="/EventPage" element={<EventPage/>}/>
+          <Route path="/Groups"  element={<Groups/>}/>
+          <Route path="/Jobs"   element={<Jobs/>}/>
+          <Route path="/Connections" element={<Connection/>}/>
+          <Route path="/Follow"   element={<Follow/>}/>
         </Route>
+
+
+     
       </Routes>
     </main>
   );
