@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const RightsideBottom = () => {
   return (
     <>
-     <div id="Bottom" className="container sticky-top  mt-2 w-100  p-3 sections" style={{zIndex:"1",top:"70px"}}>
+     <div id="Bottom" className="container sticky-top mt-2 w-100  p-3 sections" style={{zIndex:"1",top:"90px"}}>
         <div className="row p-1  ">
             <div className=" col-1 fs-6  ms-auto text-center">
                 Ad
@@ -40,19 +40,7 @@ const RightsideBottom = () => {
             </Link>
         </div>
     </div> 
-    <div className="text-center sticky-top " style={{zIndex:"1",top:"380px"}} >
-                    <div className="d-flex flex-wrap justify-content-around m-3 p-2 text-center" style={{ cursor: "pointer" }}>
-                      <p className="mx-2">About</p>
-                      <p>Accessibility</p>
-                      <p>Help Center</p>
-                      <p>Privacy & Terms </p>
-                      <p>Ad Choices</p>
-                      <p>Advertising</p>
-                      <p>Business Services</p>
-                      <p>Get the LinkedIn app</p>
-                      <p>More</p>
-                    </div>
-      </div>
+
      </>
   )
 }

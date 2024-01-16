@@ -13,6 +13,8 @@ import Groups from "./Components/Groups/Groups";
 import Jobs from "./-root/pages/jobs/Jobs1";
 import Connection from "./Components/Connection/Connection";
 import Follow from "./Components/Follow&Followings/Follow";
+import Notifications from "./-root/pages/Notifications/Notifications";
+import MyNetworkEvent from "./Components/MyNetworkEventPage/MyNetworkEvent";
 
 
 
@@ -40,6 +42,8 @@ const App = () => {
           <Route path="/Jobs"   element={<Jobs/>}/>
           <Route path="/Connections" element={<Connection/>}/>
           <Route path="/Follow"   element={<Follow/>}/>
+          <Route path="/Notifications" element={<Notifications/>}/>
+          <Route path="/MynetworkEvent" element={<MyNetworkEvent/>}/>
         </Route>
 
 

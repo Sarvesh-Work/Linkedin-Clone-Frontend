@@ -10,7 +10,7 @@ const Network = () => {
   }, 2000);
   return (
       <>
-      <div className="container-md-fluid p-2" style={{overflowX:"hidden"}} >
+      <div className="container-md-fluid p-2 mt-3"  style={{overflowX:"hidden"}} >
         <div className="row px-md-5"> 
           <div className="col-lg-3" >
             <div className="sections">
@@ -23,19 +23,19 @@ const Network = () => {
                     </Link>
                   </div>
                   <div>
-                    <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
+                    <Link to='/Follow'  className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="bi bi-person-fill-add me-2 icon12"></i> <p className="mt-1">Following & followers</p>
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
+                    <Link to="/Groups" className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="fa-solid fa-people-group me-2 mt-1 icon12"></i><p className="mt-1">Group</p>
-                    </a>
+                    </Link>
                   </div>
                   <div>
-                    <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
+                    <Link to="/MynetworkEvent" className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="bi bi-calendar-event me-2 icon12"></i><p className="mt-1">Event</p>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">

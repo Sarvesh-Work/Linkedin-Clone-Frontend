@@ -1,0 +1,20 @@
+.Event-head-name{
+    font-size: 1.2rem;
+    color: rgb(0 0 0 / 90%);
+   }
+   .Event-head-link{
+       text-decoration: none;
+       font-size: 1.2rem;
+       font-weight: 500;
+   }
+   #btn-122{
+       color: blue;
+       font-size:18px;
+       background-color: white;
+       border-radius: 20px 20px;
+     
+       border: 2px solid;
+       &:hover{
+           background-color:#f3f2f0;
+       }
+   }

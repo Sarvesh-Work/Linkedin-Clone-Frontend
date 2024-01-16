@@ -5,8 +5,8 @@ import PostsData from "../../../Components/PostsData/PostsData"
 
 const Home = () => {
   return (
-    <div className="container-md-fluid"  >
-      <div className="row mb-2 px-2 mx-md-5 mx-1 mt-3 d-flex justify-content-around">
+    <div className="container-fluid"  >
+      <div className="row mb-2 px-lg-2 mx-md-5 mx-1 mt-3 d-flex justify-content-around">
          <div className="col-xl-3 col-12 px-4 py-2 ">
            <Left/>
          </div>

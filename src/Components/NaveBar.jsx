@@ -140,7 +140,7 @@ const NaveBar = () => {
           <span className="d-xl-inline d-none underline "></span>
         </Link>
 
-        <Link className="col-1 Links p-0 d-flex flex-column text-center ">
+        <Link  to="/Notifications" className="col-1 Links p-0 d-flex flex-column text-center ">
           <i className="fa-solid fa-bell fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             Notifications
