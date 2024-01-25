@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import Logo from "../icons/174857.png";
 import ProfileImg from "../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 import Profile from "./Profile";
+import Business from "./Business/Business";
 
 const NaveBar = () => {
   return (
@@ -219,12 +220,12 @@ const NaveBar = () => {
           </div>
         </div>
         <div
-          class="offcanvas offcanvas-end"
+          class="offcanvas offcanvas-end p-0"
           tabindex="-1"
           id="offcanvasRight"
           aria-labelledby="offcanvasRightLabel"
         >
-         
+         <Business/>
         </div>
         <Link className="col-1 Links  p-0   d-xl-inline d-none">
           <div style={{ color: "#EAB458" }} className=" fs-6">

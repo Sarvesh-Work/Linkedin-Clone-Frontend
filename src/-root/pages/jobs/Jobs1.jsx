@@ -52,12 +52,12 @@ const Jobs = () => {
                     <p className="mt-1">Skill Assessments</p>
                   </a>
                 </div>
-                <div>
+                <Link to="/Interview">
                   <a href="#" className="d-flex fw-bold py-1 ps-md-2">
                     <i className="bi bi-floppy-fill me-2 icon12"></i>
                     <p className="mt-1">Interview prep</p>
                   </a>
-                </div>
+                </Link>
                 <div>
                   <div href="#" className="d-flex fw-bold py-1 ps-md-2" data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"

@@ -17,6 +17,7 @@ import Notifications from "./-root/pages/Notifications/Notifications";
 import MyNetworkEvent from "./Components/MyNetworkEventPage/MyNetworkEvent";
 import Messaging from "./-root/pages/Messaging/Messaging";
 import NewJobs from "./Components/MyJob/NewJobs";
+import Interview from "./Components/Interview/Interview";
 
 
 
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="/MynetworkEvent" element={<MyNetworkEvent/>}/>
           <Route path="/Messaging"  element={<Messaging/>}/>
           <Route path="/MyJob"      element={<NewJobs/>}/>
+          <Route path="/Interview"  element={<Interview/>}/>
         </Route>
 
 

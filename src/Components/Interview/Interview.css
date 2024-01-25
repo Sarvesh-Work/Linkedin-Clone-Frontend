@@ -1,0 +1,17 @@
+.interview-right1{
+    background-color: #DDE7F1;
+}
+.interview-button{
+    background-color: #004182;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px 40px;
+}
+.card-2{
+    border-radius: 0px 0px;
+    border-top: none;
+}
+.interview-list:hover{
+    background-color: #F8FAFD;
+    cursor: pointer;
+}
