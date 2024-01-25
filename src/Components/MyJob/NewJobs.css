@@ -1,0 +1,59 @@
+.sarvesh-name{
+    font-size: 20px;
+    color: #191919;
+}
+.button{
+    background-color:white;
+    color: #191919;
+    font-size: 18px;
+    text-decoration: none;
+    &:hover{
+        
+        border-radius: 0px 0px ;
+    }
+}
+#following-name{
+    font-size:18px;
+}
+#following-bio{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+#job-role{
+   color: black;
+   font-size: 16px;
+   font-weight: 600;
+   &:hover{
+  border-bottom: 1px  solid #191919;
+   }
+}
+#company-name{
+    color: black;
+    font-weight: 350;
+}
+#job-location{
+    color:#8C8C8C;
+    font-weight: 350;
+}
+#time{
+    font-size:14px;
+    color:#8C8C8C;
+    font-weight: 200;
+
+}
+#upper-btn{
+    border-radius: 50px 50px ;
+}
+#my-jon-name{
+   font-size: 22px;
+   color: #8C8C8C;
+}
+.downcase-button{
+  font-size: 18px;
+ 
+  &:hover{
+    background-color: #8C8C8C;
+  }
+}

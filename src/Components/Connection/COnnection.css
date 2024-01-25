@@ -1,7 +1,4 @@
-body{
-    background-color:#f3f2f0;
 
-}
 a{
     text-decoration: none;
 }
@@ -9,9 +6,7 @@ a{
     font-weight: 800;
     font-size:18px;
     color: #616161;
-    &:hover{
-        background-color: #F3F3F3;
-    }
+ 
 }
 #card1{
     border-radius: 20px 20px;

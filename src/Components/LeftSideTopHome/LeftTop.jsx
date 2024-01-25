@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 import LeftBottom from "../LeftSideBottomHome/LeftBottom";
+
+
 const Left = () => {
   return (
     <>
@@ -34,6 +36,9 @@ const Left = () => {
       <div className="row mt-5 mx-0 p-2">
         <div className="col-12 fs-5 fw-bold text-center mt-3">
           Sarvesh Munde
+        </div>
+        <div className="col-12 fs-5 fw-bold text-center mt-1">
+           Sohan Dahatonde
         </div>
       </div>
       <div className="row  mx-0 p-2 mt-1">

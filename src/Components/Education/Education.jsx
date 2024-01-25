@@ -2,7 +2,7 @@
 
 const Education = () => {
   return (
-    <div className="container sections mt-3 pb-3">
+    <div className="container-md container-fluid sections mt-3 pb-3">
     <div className="row px-0 py-2 d-flex justify-content-between">
         <div className="col-4  fs-3" style={{fontWeight:"500"}}>
            Education

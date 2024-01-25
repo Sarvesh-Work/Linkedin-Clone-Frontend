@@ -53,7 +53,7 @@ const NotificationSection = () => {
           My posts
         </div>
         <div
-          className="col-md-2  col-lg-4 fs-5 fw-bold  mt-md-0 mt-1 mx-md-0 mx-2 p-1  cursor  text-center  rounded-pill"
+          className="col-md-2  col-lg-4 fs-5 fw-bold  mt-md-0 mt-1 mx-md-0  p-1  cursor  text-center  rounded-pill"
           style={{ border: "1px solid #858585" }}
         >
           Mentions
@@ -62,8 +62,8 @@ const NotificationSection = () => {
 
       <div className="row sections  mt-3 d-flex justify-content-center overflow-hidden">
         {img.map((i)=>(
-            <div className="row p-3   button pt-3 d-flex justify-content-between">
-            <div className="col-2 d-flex align-items-center">
+            <div className="row p-3   button pt-3  cursor d-flex justify-content-center">
+            <div className="col-md-2 col-3 d-flex align-items-center ">
               <div className=" " style={{ width: "100%", height: "60px" }}>
                 <img
                   src={i.img}
@@ -73,7 +73,7 @@ const NotificationSection = () => {
                 />
               </div>
             </div>
-            <div className="col-md-7">
+            <div className="col-md-7 col-7">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
               ea. 
              

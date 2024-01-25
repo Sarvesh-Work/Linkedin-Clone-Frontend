@@ -2,7 +2,7 @@
 
 const RightTop = () => {
   return (
-    <div className="container sections">
+    <div className="container-md container-fluid sections">
        <div className="row p-1 pt-3 d-flex justify-content-between">
           <div className="col-9 fs-5 fw-bold ">
             Profile language

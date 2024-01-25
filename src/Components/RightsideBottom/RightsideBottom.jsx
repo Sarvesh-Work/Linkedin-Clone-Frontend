@@ -1,5 +1,5 @@
 
-import img from "../../images/attractive-man-smiling_388558-125.avif"
+import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 import img1 from "../../images/1631328654457.jpeg"
 import { Link } from "react-router-dom"
 
@@ -22,7 +22,7 @@ const RightsideBottom = () => {
         </div>
         <div className="row mt-3 d-flex justify-content-center gap-3">
             <div className="col-3   w-25 h-50" >
-                 <img src={img} alt=""  className="w-100 h-100 col-3 rounded-circle" style={{boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}}/>
+                 <img src={ProfileImg} alt=""  className="w-100 h-100 col-3 rounded-circle" style={{boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}}/>
             </div>
             <div className="col-3 w-25 h-25">
                 <img src={img1} alt="" className="w-100 h-100" />

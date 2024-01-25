@@ -20,12 +20,12 @@ const Profile = () => {
             programming languages
           </div>
         </div>
-        <div
+        <Link to="/EditProfile"
           className="col-11 text-primary border border-primary mt-2 text-center fs-5 mx-3"
           style={{ borderRadius: "20px" }}
         >
           View Profile
-        </div>
+        </Link>
         <hr className="dropdown-divider"></hr>
         <div className="col-12 ">
           <div className="fw-bold fs-6 ">Account</div>

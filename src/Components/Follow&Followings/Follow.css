@@ -7,10 +7,7 @@
     color: #191919;
     font-size: 18px;
     text-decoration: none;
-    &:hover{
-        border-bottom: 1px solid black;
-        border-radius: 0px 0px ;
-    }
+   
 }
 #following-name{
     font-size:18px;

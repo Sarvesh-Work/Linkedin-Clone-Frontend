@@ -2,7 +2,7 @@ import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 
 const EditTopLeft = () => {
   return (
-    <div className="container sections pb-3 ">
+    <div className="container-md container-fluid sections pb-3 ">
       <div className="row p-3 rounded-3" style={{ height: "160px",border:"2px solid #E8E8E8"}}>
         <div
           className="col-7 p-1 rounded-circle"

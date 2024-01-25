@@ -1,25 +1,50 @@
+import { Link } from "react-router-dom";
 import "./Jobs1.css";
+import Prefer from "../../../Components/Prefer/Prefer";
+import Resume from "../../../Components/ResumeBuilder/Resume";
+
+
 // import Slider from "./Slider"
+
+
+
+
+
+
 const Jobs = () => {
   return (
     <div className="container mt-3 mb-2">
-      <div className="row">
+      <div className="row " >
         {/* left sideBar */}
-        <div className="col-lg-3">
-          <div className="sections">
+        <div className="col-lg-3 " >
+          <div className="sections " >
             <ul className="list-group list-group-light">
-              <li className="list-group-item px-3">
-                <div className="mt-3">
+              <li className="list-group-item px-3" >
+                <Link to="/MyJob" className="mt-3 button" >
                   <a href="#" className="d-flex fw-bold py-1 ps-md-2">
                     <i className="bi bi-bookmark-fill me-2  icon12"></i>
                     <p className="mt-1">My Jobs</p>
                   </a>
-                </div>
+                </Link>
                 <div>
-                  <a href="#" className="d-flex fw-bold py-1 ps-md-2">
-                    <i className="bi bi-list-ul me-2 icon12"></i>{" "}
+                  <div href="#" className="d-flex fw-bold py-1 ps-md-2" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop1"
+        style={{ cursor: "pointer" }}>
+                    <i className="bi bi-list-ul me-2 icon12"></i>
                     <p className="mt-1">Preferences</p>
-                  </a>
+                  </div>
+                  <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+          
+        >
+         <Prefer/>
+        </div>
                 </div>
                 <div>
                   <a href="#" className="d-flex fw-bold py-1 ps-md-2">
@@ -34,10 +59,24 @@ const Jobs = () => {
                   </a>
                 </div>
                 <div>
-                  <a href="#" className="d-flex fw-bold py-1 ps-md-2">
+                  <div href="#" className="d-flex fw-bold py-1 ps-md-2" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop2"
+        style={{ cursor: "pointer" }}>
                     <i className="bi bi-file-earmark-fill me-2 icon12 "></i>
                     <p className="mt-1">Resume Builder</p>
-                  </a>
+                  </div>
+                  <div
+          className="modal fade"
+          id="staticBackdrop2"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+          
+        >
+         <Resume/>
+        </div>
                 </div>
                 <div>
                   <a href="#" className="d-flex fw-bold py-1 ps-md-2">
@@ -54,7 +93,7 @@ const Jobs = () => {
               </li>
             </ul>
           </div>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center " >
             <button className="btn btn-primary px-5 mt-2 mb-3" id="btn-122">
               Post a free job
             </button>

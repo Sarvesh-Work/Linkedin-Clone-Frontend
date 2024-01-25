@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import NaveBar from "../Components/NaveBar";
 import Loading from "../Components/Loader";
 import { useEffect, useState } from "react";
+import FixMessaing from "../Components/FixMessaging/FixMessaing";
 
 
 
@@ -28,6 +29,7 @@ const RootLayout = () => {
       ) : (
         <div className="w-100 h-100">
           <NaveBar />
+          <FixMessaing/>
 
           <section className="d-flex w-100" style={{backgroundColor:"#F4F2EE"}}>
             <Outlet />

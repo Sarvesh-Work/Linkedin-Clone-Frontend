@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../icons/174857.png";
 import ProfileImg from "../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 import Profile from "./Profile";
@@ -87,7 +87,6 @@ const NaveBar = () => {
                     width: "40px",
                   }}
                 />
-              
               </div>
               <div className="col-3 p-2 text-center">
                 <i className="fa-solid fa-list-check fs-2 my-2"></i>
@@ -103,50 +102,77 @@ const NaveBar = () => {
         </div>
         {/* mobile and tablet screen */}
 
-        <Link
+        <NavLink
           to="/Home"
-          className="col-1 Links  p-0 d-flex flex-column text-center "
+          className="col-1 Links  p-0 d-flex flex-column text-center"
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "4px solid black" : "none",
+            };
+          }}
         >
           <i className="fa-solid fa-house fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             Home
           </span>
-          <span className="d-xl-inline d-none underline "></span>
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/Network"
           className="col-1 Links p-0 d-flex flex-column text-center "
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "4px solid black" : "none",
+            };
+          }}
         >
           <i className="fa-solid fa-people-line  fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             My Network
           </span>
-          <span className="d-xl-inline d-none underline "></span>
-        </Link>
-        <Link 
-         to="/Jobs"
-        className="col-1 Links p-0 d-flex flex-column text-center ">
+        </NavLink>
+        <NavLink
+          to="/Jobs"
+          className="col-1 Links p-0 d-flex flex-column text-center "
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "4px solid black" : "none",
+            };
+          }}
+        >
           <i className="fa-solid fa-briefcase  fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             Jobs
           </span>
-          <span className="d-xl-inline d-none underline "></span>
-        </Link>
-        <Link className="col-1 Links p-0 d-flex flex-column text-center ">
+        </NavLink>
+        <NavLink
+          to="/Messaging"
+          className="col-1 Links p-0 d-flex flex-column text-center "
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "4px solid black" : "none",
+            };
+          }}
+        >
           <i className="fa-solid fa-message fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             Messaging
           </span>
-          <span className="d-xl-inline d-none underline "></span>
-        </Link>
+        </NavLink>
 
-        <Link  to="/Notifications" className="col-1 Links p-0 d-flex flex-column text-center ">
+        <NavLink
+          to="/Notifications"
+          className="col-1 Links p-0 d-flex flex-column text-center "
+          style={({ isActive }) => {
+            return {
+              borderBottom: isActive ? "4px solid black" : "none",
+            };
+          }}
+        >
           <i className="fa-solid fa-bell fs-6 p-1 my-xl-0 my-2"></i>
           <span className="d-xl-inline d-none" style={{ color: "#00000099" }}>
             Notifications
           </span>
-          <span className="d-xl-inline d-none underline "></span>
-        </Link>
+        </NavLink>
         <div className=" col-1 p-0 dropdown mx-1 text-center d-lg-inline d-none">
           <img
             src={ProfileImg}
@@ -181,11 +207,24 @@ const NaveBar = () => {
           className="col-1 d-lg-inline d-none"
           style={{ borderLeft: "1px solid gray", width: "1px" }}
         ></div>
-        <div className="col-1  text-center d-lg-inline d-none p-0">
+        <div
+          className="col-1  text-center d-lg-inline d-none p-0 cursor"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
           <i className="fa-solid fa-list-check fs-5 mt-xl-0 "></i>
           <div className="d-xl-block d-none " style={{ color: "#00000099" }}>
             For Business
           </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+         
         </div>
         <Link className="col-1 Links  p-0   d-xl-inline d-none">
           <div style={{ color: "#EAB458" }} className=" fs-6">
@@ -198,8 +237,3 @@ const NaveBar = () => {
 };
 
 export default NaveBar;
-
-{
-  /* <div className="collapse navbar-collapse" id="navbarSupportedContent"> */
-}
-// </div>

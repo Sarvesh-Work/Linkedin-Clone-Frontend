@@ -1,6 +1,8 @@
 import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
 import PostImg from "../../images/pexels-paras-katwal-4218883.jpg";
 import PostImg2 from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg"
+
+import img from "../../images/attractive-man-smiling_388558-125.avif"
 const PostsData = () => {
   return (
     <>
@@ -38,7 +40,7 @@ const PostsData = () => {
               style={{ height: "60px", width: "60px" }}
             />
             <div className="mx-2">
-              <div className="fw-bold fs-6 ">Sarvesh Munde</div>
+              <div className="fw-bold fs-6 ">xyz</div>
               <div className="fs-6">Frontend Developer</div>
               <div className="fs-6">
                 2d<i className="fa-solid fa-earth-americas mx-1"></i>
@@ -97,7 +99,7 @@ const PostsData = () => {
         <div className="row mt-3  d-flex justify-content-between">
           <div className="col-md-6 col-8 d-flex p-0 align-items-center">
             <img
-              src={ProfileImg}
+              src={img}
               alt=""
               className=" rounded-circle"
               style={{ height: "60px", width: "60px" }}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProfileImg from "../../images/10808dc6cd9b78f0153e68aae9942abc.jpg";
+
 
 const Event = () => {
   const [Loader, setLoader] = useState(true);

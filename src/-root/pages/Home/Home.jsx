@@ -14,7 +14,7 @@ const Home = () => {
           <Posts/>
           <PostsData/>
          </div>
-         <div className="col-xl-3 px-2 py-2 d-flex justify-content-center align-content-center">
+         <div className="col-xl-3 px-1 py-2 d-flex justify-content-center align-content-center">
            <HomeRightSide/>
          </div>
       </div>

@@ -15,6 +15,8 @@ import Connection from "./Components/Connection/Connection";
 import Follow from "./Components/Follow&Followings/Follow";
 import Notifications from "./-root/pages/Notifications/Notifications";
 import MyNetworkEvent from "./Components/MyNetworkEventPage/MyNetworkEvent";
+import Messaging from "./-root/pages/Messaging/Messaging";
+import NewJobs from "./Components/MyJob/NewJobs";
 
 
 
@@ -44,6 +46,8 @@ const App = () => {
           <Route path="/Follow"   element={<Follow/>}/>
           <Route path="/Notifications" element={<Notifications/>}/>
           <Route path="/MynetworkEvent" element={<MyNetworkEvent/>}/>
+          <Route path="/Messaging"  element={<Messaging/>}/>
+          <Route path="/MyJob"      element={<NewJobs/>}/>
         </Route>
 
 
