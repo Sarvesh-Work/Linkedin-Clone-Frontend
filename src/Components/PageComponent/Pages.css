@@ -1,0 +1,15 @@
+#link-tag{
+    text-decoration: none;
+    color:black;
+}
+#Page-name:hover{
+  border-bottom: 2px solid black;
+}
+#Page-Follo{
+    font-weight:200;
+    font-size:15px;
+    color: #666666;
+}
+.page130{
+   font-size: 18px;
+}

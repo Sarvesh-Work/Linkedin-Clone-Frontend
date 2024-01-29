@@ -7,8 +7,8 @@ const Connection = () => {
               <div className="d-flex  justify-content-between ">
                 <p id="text1">21 Connections</p>
                 <p>
-                <input type="text" name="" id="" placeholder="search by name" /> 
-                <span className="ms-2">Search With Filtes</span>
+                <input className="d-sm-inline d-none" type="text" name="" id="" placeholder="search by name" /> 
+                <span className="ms-2 ">Search With Filtes</span>
                 </p>
               </div>
 

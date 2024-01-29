@@ -18,6 +18,7 @@ import MyNetworkEvent from "./Components/MyNetworkEventPage/MyNetworkEvent";
 import Messaging from "./-root/pages/Messaging/Messaging";
 import NewJobs from "./Components/MyJob/NewJobs";
 import Interview from "./Components/Interview/Interview";
+import Pages from "./Components/PageComponent/Pages";
 
 
 
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/Messaging"  element={<Messaging/>}/>
           <Route path="/MyJob"      element={<NewJobs/>}/>
           <Route path="/Interview"  element={<Interview/>}/>
+          <Route path="/Page"  element={<Pages/>}/>
         </Route>
 
 

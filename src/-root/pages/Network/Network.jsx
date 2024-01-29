@@ -11,7 +11,7 @@ const Network = () => {
   return (
       <>
       <div className="container-md-fluid p-2 mt-3"  style={{overflowX:"hidden"}} >
-        <div className="row px-md-5"> 
+        <div className="row px-md-5 "> 
           <div className="col-lg-3" >
             <div className="sections">
               <ul className="list-group list-group-light" >
@@ -37,11 +37,11 @@ const Network = () => {
                       <i className="bi bi-calendar-event me-2 icon12"></i><p className="mt-1">Event</p>
                     </Link>
                   </div>
-                  <div>
+                  <Link to="/Page">
                     <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="bi bi-file-earmark me-2 icon12 "></i><p className="mt-1">Page</p>
                     </a>
-                  </div>
+                  </Link>
                   <div>
                     <a href="#" className="d-flex fw-bold py-1 ps-md-2 text-dark">
                       <i className="bi bi-newspaper me-2 icon12"></i><p className="mt-1">NewsLetter</p>
