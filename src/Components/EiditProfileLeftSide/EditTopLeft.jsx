@@ -29,7 +29,7 @@ const EditTopLeft = () => {
       </div>
       <div className="row mt-5 pt-5">
         <div className="col p-2 fw-bold fs-4">
-          XYZ 
+          Sarvesh Munde
           <p className="fs-6 fw-normal">Software developer with ethics, have passionately curious about programming languages</p>
         </div>
       </div>
